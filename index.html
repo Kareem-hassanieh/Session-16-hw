@@ -7,15 +7,37 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <button onclick="startGame()">Start Game</button>
+  <button onclick="startGame()" id="start-btn">Start Game</button>
+  <p class="hidden" id="three-dots">
+    <span class="dot">.</span>
+    <span class="dot">.</span>
+    <span class="dot">.</span>
+  </p>
+  
   <div class="container">
-    <div class="red-box">1</div>
-    <div class="yellow-box">2</div>
-    <div class="green-box">3</div>
-    <div class="blue-box">4</div>
-
-
+    <div class="red-box" id="1" onclick="checkUserClick(event)"></div>
+    <div class="yellow-box" id="2" onclick="checkUserClick(event)"></div>
+    <div class="green-box"  id="3" onclick="checkUserClick(event)"></div>
+    <div class="blue-box"  id="4" onclick="checkUserClick(event)"></div>
   </div>
+
+  <p id="condition"></p>
+
+
+  <div class="prompt-container">
+    <div class="name-display" id="name-display"></div>
+    <div class="level-display" id="level-display"></div>
+  </div>
+
+
+  <audio id="blue-sound" src="blue.mp3"></audio>
+  <audio id="yellow-sound" src="yellow.mp3"></audio>
+  <audio id="red-sound" src="red.mp3"></audio>
+  <audio id="wrong-sound" src="wrong.mp3"></audio>
+  <audio id="green-sound" src="green.mp3"></audio>
+
+
+
  <script src="script.js"></script>
 </body>
 </html>

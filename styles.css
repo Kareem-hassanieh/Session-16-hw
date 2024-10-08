@@ -4,12 +4,56 @@ body{
   justify-content: center;
   align-items: center;
   gap:100px;
+  position: relative;
+  
 
+}
+.prompt-container{
+  position: absolute;
+  top:10%;
+  right:5%;
+  font-size: 20px;
+  display:flex;
+  flex-direction: column;
+  gap:5px;
+  color:rgb(67, 163, 163)
+}
+
+
+#condition{
+  font-size: 30px;
+  font-weight: 400;
+}
+#start-btn{
+  padding:10px;
+  border:none;
+  margin-top: 10px;
+  background-color: rgb(183, 191, 39);
+  color:white;
+  border-radius: 10px;
+
+
+}
+.dot{ 
+  font-size:40px;
+  font-weight: bold;
+}
+ 
+
+
+
+
+.hidden{
+  display:none;
 }
 
 .container{
-  display:flex;
-  gap:100px;
+  display:grid;
+  gap:20px;
+
+  
+  grid-template-columns: 1fr 1fr;
+  
 
 
 }
