@@ -1,0 +1,56 @@
+body{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:100px;
+
+}
+
+.container{
+  display:flex;
+  gap:100px;
+
+
+}
+.red-box{
+  height: 100px;
+  width:100px;
+  background-color: red;
+  border-radius: 10px;
+}
+.yellow-box{
+  height: 100px;
+  width:100px;
+  background-color: rgb(255, 255, 0);
+  border-radius: 10px;
+}
+.blue-box{
+  height: 100px;
+  width:100px;
+  background-color: rgb(0, 166, 255);
+  border-radius: 10px;
+}
+.green-box{
+  height: 100px;
+  width:100px;
+  background-color: rgb(49, 159, 15);
+  border-radius: 10px;
+}
+
+.light-green{
+  background-color: rgb(161, 244, 161);
+}
+.light-blue{
+  background-color: rgb(167, 208, 234);
+}
+.light-red{
+  background-color: rgb(224, 146, 142);
+}
+.light-yellow{
+  background-color: rgb(225, 240, 178);
+}
+
+
+
+
